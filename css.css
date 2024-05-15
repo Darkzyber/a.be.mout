@@ -1,0 +1,81 @@
+
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+body{
+  color: rgba(255,255,255,.75);
+  font-family: 'Anonymous Pro', monospace;  
+  background-color: rgb(25,25,25);  
+}
+
+header{
+    height: 10vh;
+}
+aside{
+    height: 40vh;
+}
+section{
+    height: 55vh;
+}
+
+.me img{
+    width: 27vh;
+}
+
+.tile {
+    height:400px;
+    margin-top:40px;
+    -webkit-transform: translateY(200px) translateZ(0);
+    transform: translateY(200px) translateZ(0);
+    -webkit-transition-delay: 1s;
+    -o-transition-delay: .3s;
+    transition-delay: .3s;
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+    opacity: 0;
+}
+.bottom-right.inView {
+    opacity: 1;
+    -webkit-transform: translateY(0px) rotate(0deg) translateZ(0);
+    transform: translateY(0px) rotate(0deg) translateZ(0);
+}
+.inView {
+    opacity: 1;
+    -webkit-transform: translateY(0px) rotate(0deg) translateZ(0);
+    transform: translateY(0px) rotate(0deg) translateZ(0);
+}
+.v2{
+    height: 25vh;
+}
+
+h1{
+    margin-bottom: 0px;
+}
+hr{
+    margin: 1vh;
+    border: 3px solid #a836f4;
+}
+h2{
+    margin-top: 0;
+    margin-bottom: 1.5em;
+}
+
+.table{
+    vertical-align: middle;
+
+}
+p{
+    margin: 2px;
+}
+.purpur{
+    color: #a836f4;   
+}
+a{
+    color: #a836f4;
+}
+.progress-bar{
+    background-color: #a836f4;
+}
+
+ion-icon {
+    font-size: 25px;
+  }
