@@ -43,6 +43,9 @@ section{
     -webkit-transform: translateY(0px) rotate(0deg) translateZ(0);
     transform: translateY(0px) rotate(0deg) translateZ(0);
 }
+.v1{
+    height: 10vh;
+}
 .v2{
     height: 25vh;
 }
