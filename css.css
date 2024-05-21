@@ -70,15 +70,19 @@ p{
     margin: 2px;
 }
 .purpur{
-    color: #a836f4;   
+    color: #a836f4;
 }
 a{
     color: #a836f4;
 }
 .progress-bar{
-    background-color: #a836f4;
+    background-color: #8425c4;
 }
 
 ion-icon {
     font-size: 25px;
-  }
+}
+i{
+    font-size: 18px;
+    line-height: 8px;
+}
