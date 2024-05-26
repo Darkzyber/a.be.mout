@@ -1,16 +1,17 @@
-
-let elementsArray = document.querySelectorAll(".tile");
-    console.log(elementsArray);
-    window.addEventListener('scroll', fadeIn ); 
+let centerDesktop = 40;
+let elementsArray = document.querySelectorAll(".section");
+    // console.log(elementsArray);
+    window.addEventListener('scroll', fadeIn );
     function fadeIn() {
         for (var i = 0; i < elementsArray.length; i++) {
-            var elem = elementsArray[i]
-            var distInView = elem.getBoundingClientRect().top - window.innerHeight + 20;
-            if (distInView < 0) {
-                elem.classList.add("inView");
+            var element = elementsArray[i]
+            var View = element.getBoundingClientRect().top - window.innerHeight + centerDesktop;
+            if (View < 0) {
+                element.classList.add("Views");
             } else {
-                elem.classList.remove("inView");
+                element.classList.remove("Views");
             }
         }
     }
     fadeIn();
+

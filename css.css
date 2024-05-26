@@ -20,10 +20,8 @@ section{
     width: 27vh;
 }
 
-.tile {
-    height:400px;
-    margin-top:40px;
-    -webkit-transform: translateY(200px) translateZ(0);
+.section {
+    -webkit-transform: translateY(300px) translateZ(0);
     transform: translateY(200px) translateZ(0);
     -webkit-transition-delay: 1s;
     -o-transition-delay: .3s;
@@ -31,17 +29,14 @@ section{
     -webkit-transition: .4s;
     -o-transition: .4s;
     transition: .4s;
+    height:400px;
+    margin-top:40px;
     opacity: 0;
 }
-.bottom-right.inView {
-    opacity: 1;
+.Views {
     -webkit-transform: translateY(0px) rotate(0deg) translateZ(0);
     transform: translateY(0px) rotate(0deg) translateZ(0);
-}
-.inView {
     opacity: 1;
-    -webkit-transform: translateY(0px) rotate(0deg) translateZ(0);
-    transform: translateY(0px) rotate(0deg) translateZ(0);
 }
 .v1{
     height: 10vh;
